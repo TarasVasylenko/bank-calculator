@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bank-calculator</title>
+	<!-- <link rel="icon" href=""> -->
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		<div class="container">
+			
+			<div class="side-bar">
+				<img src="img/logo.png" alt="img"/>
+				<div class="sliders">
+					<div class="slider-1-item">Сумма:</div>
+					<div id="content-slider-1"></div>
+					<div class="slider"><div id="slider-1"></div></div>
+					<div class="limit-1">100</div>
+					<div class="limit-2">3000</div>
+
+					<div class="slider-2-item">Срок:</div>
+					<div id="content-slider-2"></div>
+					<div class="slider"><div id="slider-2"></div></div>
+					<div class="limit-1">1</div>
+					<div class="limit-2">30</div>
+				</div>
+			</div>
+
+			<!--    sideBar    -->
+
+			<div class="content">
+				<header>
+					<nav>
+						<ul>
+							<li><a href="">Онлайн займы</a></li>
+							<li><a href="">Без залога</a></li>
+							<li class="li__blog"><a href="">Блог</a></li>
+						</ul>
+					</nav>
+				</header><!-- </header> -->
+
+				<main>
+					<section class="section-1">
+						<h4>Самые популярные</h4>
+
+						<div class="row">
+
+							<div class="col-4 left">
+								<div class="section-1__block">
+									<img src="img/bystro-zaym.png" alt="img"/>
+									<h5>Быстро займ</h5>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">1й кредит:</div>
+										<div class="section-1__block-value">500грн</div>
+									</div>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">Мкс. сумма:</div>
+										<div class="section-1__block-value">1000грн</div>
+									</div>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">Срок:</div>
+										<div class="section-1__block-value">12дн</div>
+									</div>
+									<a href="#">ОФОРМИТЬ</a>
+								</div>
+							</div>
+
+							<div class="col-4">
+								<div class="section-1__block">
+									<img src="img/bystro-zaym.png" alt="img"/>
+									<h5>Быстро займ</h5>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">1й кредит:</div>
+										<div class="section-1__block-value">500грн</div>
+									</div>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">Мкс. сумма:</div>
+										<div class="section-1__block-value">1000грн</div>
+									</div>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">Срок:</div>
+										<div class="section-1__block-value">12дн</div>
+									</div>
+									<a href="#">ОФОРМИТЬ</a>
+								</div>
+							</div>
+
+							<div class="col-4 right">
+								<div class="section-1__block">
+									<div class="section-1__block-recomm-bg"></div>
+									<div class="section-1__block-recomm-tx">рекомендуем</div>
+									<img src="img/bystro-zaym.png" alt="img"/>
+									<h5>Быстро займ</h5>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">1й кредит:</div>
+										<div class="section-1__block-value">500грн</div>
+									</div>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">Мкс. сумма:</div>
+										<div class="section-1__block-value">1000грн</div>
+									</div>
+									<div class="section-1__block-cnt">
+										<div class="section-1__block-item">Срок:</div>
+										<div class="section-1__block-value">12дн</div>
+									</div>
+									<a href="#">ОФОРМИТЬ</a>
+								</div>
+							</div>
+						</div>
+					</section><!--    section-1    -->
+
+					<section class="section-2">
+
+						<h4>Сортировка: мин. выплата</h4>
+
+						<div class="section-2__block">
+
+							<div class="section-2__block-title">
+								<div class="section-2__block-img">
+									<img src="img/bystro-zaym.png" alt="img"/>
+								</div>
+								<h5>Быстро Займ</h5>
+							</div>
+
+							<div class="section-2__count">
+
+								<div class="row section-2__str-1">
+									<div class="col-30 first">К выплате</div>
+									<div class="col-40 str-1">Тело кредита</div>
+									<div class="col-30 last">Количество дней</div>
+								</div>
+
+								<div class="row section-2__str-2">
+									<div class="col-30 first"><span class="ft-size--25">1600</span> грн</div>
+									<div class="col-40 str-2">
+										<div class="el-1">+</div>
+										<div class="el-2"><span class="ft-size--20">100</span> грн</div>
+										<div class="el-3">=</div>
+									</div>
+									<div class="col-30 last str-2"><span class="ft-size--20">5</span> дней</div>
+								</div>
+
+								<div class="row section-2__str-3">
+									<div class="col-30 first">Сумма</div>
+									<div class="col-40 str-3">Срок</div>
+									<div class="col-30"><!-- empty --></div>
+								</div>
+
+								<div class="row section-2__str-4">
+									<div class="col-30 first">100-3000 грн</div>
+									<div class="col-40 str-4">1-30 дней</div>
+									<div class="col-30"><!-- empty --></div>
+								</div>
+
+							</div>
+
+							<div class="bid"><a href="#">Оформить заявку</a></div>
+
+							<div class="section-2__sale">90% кредит</div>
+						</div><!--    section-2__block   -->
+
+
+						<div class="section-2__block">
+
+							<div class="section-2__block-title">
+								<div class="section-2__block-img">
+									<img src="img/soscredit.PNG" alt="img"/>
+								</div>
+								<h5>Sos credit</h5>
+							</div>
+
+							<div class="section-2__count">
+
+								<div class="row section-2__str-1">
+									<div class="col-30 first">К выплате</div>
+									<div class="col-40 str-1">Тело кредита</div>
+									<div class="col-30 last">Количество дней</div>
+								</div>
+
+								<div class="row section-2__str-2">
+									<div class="col-30 first"><span class="ft-size--25">1600</span> грн</div>
+									<div class="col-40 str-2">
+										<div class="el-1">+</div>
+										<div class="el-2"><span class="ft-size--20">100</span> грн</div>
+										<div class="el-3">=</div>
+									</div>
+									<div class="col-30 last str-2"><span class="ft-size--20">5</span> дней</div>
+								</div>
+
+								<div class="row section-2__str-3">
+									<div class="col-30 first">Сумма</div>
+									<div class="col-40 str-3">Срок</div>
+									<div class="col-30"><!-- empty --></div>
+								</div>
+
+								<div class="row section-2__str-4">
+									<div class="col-30 first">400-2000 грн</div>
+									<div class="col-40 str-4">5-30 дней</div>
+									<div class="col-30"><!-- empty --></div>
+								</div>
+
+							</div>
+
+							<div class="bid"><a href="#">Оформить заявку</a></div>
+							
+							<div class="section-2__sale">90% кредит</div>
+
+						</div><!--    section-2__block    -->
+
+						<div class="section-2__block">
+
+							<div class="section-2__block-title">
+								<div class="section-2__block-img">
+									<img src="img/moneyveo.PNG" alt="img"/>
+								</div>
+								<h5>Moneyveo</h5>
+							</div>
+
+							<div class="section-2__count">
+
+								<div class="row section-2__str-1">
+									<div class="col-30 first">К выплате</div>
+									<div class="col-40 str-1">Тело кредита</div>
+									<div class="col-30 last">Количество дней</div>
+								</div>
+
+								<div class="row section-2__str-2">
+									<div class="col-30 first"><span class="ft-size--25">1600</span> грн</div>
+									<div class="col-40 str-2">
+										<div class="el-1">+</div>
+										<div class="el-2"><span class="ft-size--20">100</span> грн</div>
+										<div class="el-3">=</div>
+									</div>
+									<div class="col-30 last str-2"><span class="ft-size--20">5</span> дней</div>
+								</div>
+
+								<div class="row section-2__str-3">
+									<div class="col-30 first">Сумма</div>
+									<div class="col-40 str-3">Срок</div>
+									<div class="col-30"><!-- empty --></div>
+								</div>
+
+								<div class="row section-2__str-4">
+									<div class="col-30 first">300-2500 грн</div>
+									<div class="col-40 str-4">5-25 дней</div>
+									<div class="col-30"><!-- empty --></div>
+								</div>
+
+							</div>
+
+							<div class="bid"><a href="#">Оформить заявку</a></div>
+
+						</div><!--    section-2__block    -->
+
+					</section>
+
+				</main>
+			</div>
+		</div>
+		<footer>
+			<div class="container footer">
+				<div class="footer-cnt">
+					<div class="row">
+						<div class="col-33 footer-cnt__title">
+							<div class="footer-cnt__logo">
+								<img src="img/logo2.png" alt="img"/>
+							</div>
+							<a href="#">Онлайн займ</a>
+							<a href="#">Без залога</a>
+							<a href="#">Блог</a>
+						</div>
+						<div class="col-67 footer-cnt__content">
+							<div class="row footer-cnt__content-items">
+								<div class="col-4 footer-cnt__content-item-1">
+									<span class="icon-checkmark"></span> Быстро
+								</div>
+								<div class="col-4"><span class="icon-checkmark"></span> Качественно</div>
+								<div class="col-4 footer-cnt__content-item-3"><span class="icon-checkmark"></span> Надежно</div>
+							</div>
+							<p>You are in need of a personal loan, but the huge problem is: Where can find the ideal loan? BC´s core mission is to provide you with the best finansial solutions, so you prompt and easily obtain a complete overview of your options.</p> 
+							<p>At BC´s all you have to do is to adjust our search engine to your personal needs and information,</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+	</html>
