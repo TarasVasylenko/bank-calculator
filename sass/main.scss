@@ -235,10 +235,10 @@ nav{
 			top: 15px;
 			left: -30px;
 			transform: rotate(-45deg);
-			-webkit-box-sizing: transform rotate(-45deg);
-			-moz-box-sizing: transform rotate(-45deg);
-			-o-box-sizing: transform rotate(-45deg);
-			-ms-box-sizing: transform rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
 
 			border-bottom: 34px solid #f1b411;
 			border-left: 34px solid transparent;
@@ -251,10 +251,10 @@ nav{
 			top: 25px;
 			left: 0;
 			transform: rotate(-45deg);
-			-webkit-box-sizing: transform rotate(-45deg);
-			-moz-box-sizing: transform rotate(-45deg);
-			-o-box-sizing: transform rotate(-45deg);
-			-ms-box-sizing: transform rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
 
 			font-size: 10px;
 			color: $font-color-2;
