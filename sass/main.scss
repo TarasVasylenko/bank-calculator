@@ -85,7 +85,7 @@ img{
 	text-align: left;
 	font-size: $font-size;
 }
-#content-slider-1{
+.slider-1-content{
 	display: inline-block;
 	width: 50%;
 	padding-right: 15px;
@@ -100,20 +100,11 @@ img{
 	text-align: left;
 	font-size: $font-size;
 }
-#content-slider-2{
+.slider-2-content{
 	display: inline-block;
 	width: 50%;
 	padding-right: 15px;
 	text-align: right;
-	font-size: $font-size;
-}
-
-
-.content{
-	display: inline-block;
-	width: 82.0513%;
-	vertical-align: top;
-	padding-left: 5.812%;
 	font-size: $font-size;
 }
 
@@ -131,6 +122,58 @@ img{
 .limit-2{
 	text-align: right;
 	padding-right: 15px;
+}
+
+   // checkbox
+
+.checkbox-cnt{
+	margin: 30px 0;
+}
+
+.checkbox {
+    display: none;
+}
+ 
+
+.checkbox-decor {
+    position: relative;    
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 -1px 5px 0 $font-color;
+    border-radius: 3px;
+}
+ 
+.checkbox-decor,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: $font-size;
+}
+
+.label{
+	padding-left: 5px;
+} 
+
+.checkbox:checked + .checkbox-decor::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: url(../img/checked.png) center center no-repeat;
+    background-size: contain;
+}
+
+
+   // content   
+.content{
+	display: inline-block;
+	width: 82.0513%;
+	vertical-align: top;
+	padding-left: 5.812%;
+	font-size: $font-size;
 }
 
 
@@ -575,8 +618,6 @@ p{
 .icon-checkmark:before {
 	content: "\ea10";
 }
-
-
 
 
 
